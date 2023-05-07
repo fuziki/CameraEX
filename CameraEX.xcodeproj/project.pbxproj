@@ -19,6 +19,9 @@
 		52B1CD312A07EA9600C0DC15 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD302A07EA9600C0DC15 /* art.scnassets */; };
 		52B1CD332A07EA9800C0DC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD322A07EA9800C0DC15 /* Assets.xcassets */; };
 		52B1CD362A07EA9800C0DC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD342A07EA9800C0DC15 /* Main.storyboard */; };
+		52B1CD3E2A07ECC200C0DC15 /* CameraEXAppLib in Frameworks */ = {isa = PBXBuildFile; productRef = 52B1CD3D2A07ECC200C0DC15 /* CameraEXAppLib */; };
+		52B1CD402A07ECC600C0DC15 /* CameraEXCameraExtensionLib in Frameworks */ = {isa = PBXBuildFile; productRef = 52B1CD3F2A07ECC600C0DC15 /* CameraEXCameraExtensionLib */; };
+		52B1CD422A07ECCC00C0DC15 /* GameAppLib in Frameworks */ = {isa = PBXBuildFile; productRef = 52B1CD412A07ECCC00C0DC15 /* GameAppLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B1CD3E2A07ECC200C0DC15 /* CameraEXAppLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B1CD402A07ECC600C0DC15 /* CameraEXCameraExtensionLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B1CD422A07ECCC00C0DC15 /* GameAppLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +106,7 @@
 				52B1CD2B2A07EA9600C0DC15 /* GameApp */,
 				52B1CD3B2A07EB3200C0DC15 /* CameraEXLib */,
 				52B1CD042A07E9FE00C0DC15 /* Products */,
+				52B1CD3C2A07ECC200C0DC15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +164,13 @@
 			path = GameApp;
 			sourceTree = "<group>";
 		};
+		52B1CD3C2A07ECC200C0DC15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +189,9 @@
 				52B1CD202A07EA6000C0DC15 /* PBXTargetDependency */,
 			);
 			name = CameraEXApp;
+			packageProductDependencies = (
+				52B1CD3D2A07ECC200C0DC15 /* CameraEXAppLib */,
+			);
 			productName = CameraEXApp;
 			productReference = 52B1CD032A07E9FE00C0DC15 /* CameraEXApp.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +209,9 @@
 			dependencies = (
 			);
 			name = CameraEXCameraExtension;
+			packageProductDependencies = (
+				52B1CD3F2A07ECC600C0DC15 /* CameraEXCameraExtensionLib */,
+			);
 			productName = CameraEXCameraExtension;
 			productReference = 52B1CD172A07EA6000C0DC15 /* org.id.CameraEXApp.CameraEXCameraExtension.systemextension */;
 			productType = "com.apple.product-type.system-extension";
@@ -209,6 +229,9 @@
 			dependencies = (
 			);
 			name = GameApp;
+			packageProductDependencies = (
+				52B1CD412A07ECCC00C0DC15 /* GameAppLib */,
+			);
 			productName = GameApp;
 			productReference = 52B1CD2A2A07EA9600C0DC15 /* GameApp.app */;
 			productType = "com.apple.product-type.application";
@@ -838,6 +861,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52B1CD3D2A07ECC200C0DC15 /* CameraEXAppLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CameraEXAppLib;
+		};
+		52B1CD3F2A07ECC600C0DC15 /* CameraEXCameraExtensionLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CameraEXCameraExtensionLib;
+		};
+		52B1CD412A07ECCC00C0DC15 /* GameAppLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameAppLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52B1CCF92A07E4C000C0DC15 /* Project object */;
 }
