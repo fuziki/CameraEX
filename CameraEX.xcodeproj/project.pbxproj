@@ -64,6 +64,7 @@
 		52B1CD352A07EA9800C0DC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52B1CD372A07EA9800C0DC15 /* GameApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameApp.entitlements; sourceTree = "<group>"; };
 		52B1CD3B2A07EB3200C0DC15 /* CameraEXLib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CameraEXLib; sourceTree = "<group>"; };
+		52B1CD432A07FECA00C0DC15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		52B1CCF82A07E4C000C0DC15 = {
 			isa = PBXGroup;
 			children = (
+				52B1CD432A07FECA00C0DC15 /* README.md */,
 				52B1CD052A07E9FE00C0DC15 /* CameraEXApp */,
 				52B1CD182A07EA6000C0DC15 /* CameraEXCameraExtension */,
 				52B1CD2B2A07EA9600C0DC15 /* GameApp */,
