@@ -14,6 +14,11 @@
 		52B1CD1A2A07EA6000C0DC15 /* CameraEXCameraExtensionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD192A07EA6000C0DC15 /* CameraEXCameraExtensionProvider.swift */; };
 		52B1CD1C2A07EA6000C0DC15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD1B2A07EA6000C0DC15 /* main.swift */; };
 		52B1CD212A07EA6000C0DC15 /* org.id.CameraEXApp.CameraEXCameraExtension.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 52B1CD172A07EA6000C0DC15 /* org.id.CameraEXApp.CameraEXCameraExtension.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52B1CD2D2A07EA9600C0DC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD2C2A07EA9600C0DC15 /* AppDelegate.swift */; };
+		52B1CD2F2A07EA9600C0DC15 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD2E2A07EA9600C0DC15 /* GameViewController.swift */; };
+		52B1CD312A07EA9600C0DC15 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD302A07EA9600C0DC15 /* art.scnassets */; };
+		52B1CD332A07EA9800C0DC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD322A07EA9800C0DC15 /* Assets.xcassets */; };
+		52B1CD362A07EA9800C0DC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD342A07EA9800C0DC15 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,13 @@
 		52B1CD1B2A07EA6000C0DC15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		52B1CD1D2A07EA6000C0DC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B1CD1E2A07EA6000C0DC15 /* CameraEXCameraExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CameraEXCameraExtension.entitlements; sourceTree = "<group>"; };
+		52B1CD2A2A07EA9600C0DC15 /* GameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B1CD2C2A07EA9600C0DC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B1CD2E2A07EA9600C0DC15 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		52B1CD302A07EA9600C0DC15 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		52B1CD322A07EA9800C0DC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B1CD352A07EA9800C0DC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B1CD372A07EA9800C0DC15 /* GameApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52B1CD272A07EA9600C0DC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +96,7 @@
 			children = (
 				52B1CD052A07E9FE00C0DC15 /* CameraEXApp */,
 				52B1CD182A07EA6000C0DC15 /* CameraEXCameraExtension */,
+				52B1CD2B2A07EA9600C0DC15 /* GameApp */,
 				52B1CD042A07E9FE00C0DC15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +106,7 @@
 			children = (
 				52B1CD032A07E9FE00C0DC15 /* CameraEXApp.app */,
 				52B1CD172A07EA6000C0DC15 /* org.id.CameraEXApp.CameraEXCameraExtension.systemextension */,
+				52B1CD2A2A07EA9600C0DC15 /* GameApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +140,19 @@
 				52B1CD1E2A07EA6000C0DC15 /* CameraEXCameraExtension.entitlements */,
 			);
 			path = CameraEXCameraExtension;
+			sourceTree = "<group>";
+		};
+		52B1CD2B2A07EA9600C0DC15 /* GameApp */ = {
+			isa = PBXGroup;
+			children = (
+				52B1CD2C2A07EA9600C0DC15 /* AppDelegate.swift */,
+				52B1CD2E2A07EA9600C0DC15 /* GameViewController.swift */,
+				52B1CD302A07EA9600C0DC15 /* art.scnassets */,
+				52B1CD322A07EA9800C0DC15 /* Assets.xcassets */,
+				52B1CD342A07EA9800C0DC15 /* Main.storyboard */,
+				52B1CD372A07EA9800C0DC15 /* GameApp.entitlements */,
+			);
+			path = GameApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +194,23 @@
 			productReference = 52B1CD172A07EA6000C0DC15 /* org.id.CameraEXApp.CameraEXCameraExtension.systemextension */;
 			productType = "com.apple.product-type.system-extension";
 		};
+		52B1CD292A07EA9600C0DC15 /* GameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B1CD382A07EA9800C0DC15 /* Build configuration list for PBXNativeTarget "GameApp" */;
+			buildPhases = (
+				52B1CD262A07EA9600C0DC15 /* Sources */,
+				52B1CD272A07EA9600C0DC15 /* Frameworks */,
+				52B1CD282A07EA9600C0DC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameApp;
+			productName = GameApp;
+			productReference = 52B1CD2A2A07EA9600C0DC15 /* GameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,6 +225,9 @@
 						CreatedOnToolsVersion = 14.3;
 					};
 					52B1CD162A07EA6000C0DC15 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					52B1CD292A07EA9600C0DC15 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -193,6 +247,7 @@
 			targets = (
 				52B1CD022A07E9FE00C0DC15 /* CameraEXApp */,
 				52B1CD162A07EA6000C0DC15 /* CameraEXCameraExtension */,
+				52B1CD292A07EA9600C0DC15 /* GameApp */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +266,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B1CD282A07EA9600C0DC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B1CD362A07EA9800C0DC15 /* Main.storyboard in Resources */,
+				52B1CD332A07EA9800C0DC15 /* Assets.xcassets in Resources */,
+				52B1CD312A07EA9600C0DC15 /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +300,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52B1CD262A07EA9600C0DC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B1CD2F2A07EA9600C0DC15 /* GameViewController.swift in Sources */,
+				52B1CD2D2A07EA9600C0DC15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +318,17 @@
 			targetProxy = 52B1CD1F2A07EA6000C0DC15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52B1CD342A07EA9800C0DC15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B1CD352A07EA9800C0DC15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		52B1CCFD2A07E4C000C0DC15 /* Debug */ = {
@@ -473,7 +558,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -545,7 +630,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -553,6 +638,157 @@
 				PRODUCT_NAME = "$(inherited)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		52B1CD392A07EA9800C0DC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = GameApp/GameApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.id.GameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		52B1CD3A2A07EA9800C0DC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = GameApp/GameApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.id.GameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -586,6 +822,15 @@
 			buildConfigurations = (
 				52B1CD232A07EA6000C0DC15 /* Debug */,
 				52B1CD242A07EA6000C0DC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B1CD382A07EA9800C0DC15 /* Build configuration list for PBXNativeTarget "GameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B1CD392A07EA9800C0DC15 /* Debug */,
+				52B1CD3A2A07EA9800C0DC15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
