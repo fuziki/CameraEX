@@ -5,7 +5,7 @@
 //  Created by fuziki on 2023/05/07
 //  
 //
-
+/*
 import Foundation
 import CoreMediaIO
 import IOKit.audio
@@ -309,3 +309,4 @@ class CameraEXCameraExtensionProviderSource: NSObject, CMIOExtensionProviderSour
 		// Handle settable properties here.
 	}
 }
+*/

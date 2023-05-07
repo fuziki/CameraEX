@@ -6,6 +6,7 @@
 //  
 //
 
+import CameraEXAppLib
 import SwiftUI
 
 @main
