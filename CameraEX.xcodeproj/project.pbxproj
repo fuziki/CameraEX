@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		52B1CD072A07E9FE00C0DC15 /* CameraEXAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD062A07E9FE00C0DC15 /* CameraEXAppApp.swift */; };
-		52B1CD092A07E9FE00C0DC15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD082A07E9FE00C0DC15 /* ContentView.swift */; };
 		52B1CD0B2A07EA0000C0DC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD0A2A07EA0000C0DC15 /* Assets.xcassets */; };
 		52B1CD0E2A07EA0000C0DC15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B1CD0D2A07EA0000C0DC15 /* Preview Assets.xcassets */; };
-		52B1CD1A2A07EA6000C0DC15 /* CameraEXCameraExtensionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD192A07EA6000C0DC15 /* CameraEXCameraExtensionProvider.swift */; };
 		52B1CD1C2A07EA6000C0DC15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD1B2A07EA6000C0DC15 /* main.swift */; };
 		52B1CD212A07EA6000C0DC15 /* com.example.CameraEXApp.CameraEXCameraExtension.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 52B1CD172A07EA6000C0DC15 /* com.example.CameraEXApp.CameraEXCameraExtension.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52B1CD2D2A07EA9600C0DC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1CD2C2A07EA9600C0DC15 /* AppDelegate.swift */; };
@@ -51,12 +49,10 @@
 /* Begin PBXFileReference section */
 		52B1CD032A07E9FE00C0DC15 /* CameraEXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraEXApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B1CD062A07E9FE00C0DC15 /* CameraEXAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEXAppApp.swift; sourceTree = "<group>"; };
-		52B1CD082A07E9FE00C0DC15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52B1CD0A2A07EA0000C0DC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B1CD0D2A07EA0000C0DC15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52B1CD0F2A07EA0000C0DC15 /* CameraEXApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CameraEXApp.entitlements; sourceTree = "<group>"; };
 		52B1CD172A07EA6000C0DC15 /* com.example.CameraEXApp.CameraEXCameraExtension.systemextension */ = {isa = PBXFileReference; explicitFileType = "wrapper.system-extension"; includeInIndex = 0; path = com.example.CameraEXApp.CameraEXCameraExtension.systemextension; sourceTree = BUILT_PRODUCTS_DIR; };
-		52B1CD192A07EA6000C0DC15 /* CameraEXCameraExtensionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEXCameraExtensionProvider.swift; sourceTree = "<group>"; };
 		52B1CD1B2A07EA6000C0DC15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		52B1CD1D2A07EA6000C0DC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B1CD1E2A07EA6000C0DC15 /* CameraEXCameraExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CameraEXCameraExtension.entitlements; sourceTree = "<group>"; };
@@ -124,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				52B1CD062A07E9FE00C0DC15 /* CameraEXAppApp.swift */,
-				52B1CD082A07E9FE00C0DC15 /* ContentView.swift */,
 				52B1CD0A2A07EA0000C0DC15 /* Assets.xcassets */,
 				52B1CD0F2A07EA0000C0DC15 /* CameraEXApp.entitlements */,
 				52B1CD0C2A07EA0000C0DC15 /* Preview Content */,
@@ -143,7 +138,6 @@
 		52B1CD182A07EA6000C0DC15 /* CameraEXCameraExtension */ = {
 			isa = PBXGroup;
 			children = (
-				52B1CD192A07EA6000C0DC15 /* CameraEXCameraExtensionProvider.swift */,
 				52B1CD1B2A07EA6000C0DC15 /* main.swift */,
 				52B1CD1D2A07EA6000C0DC15 /* Info.plist */,
 				52B1CD1E2A07EA6000C0DC15 /* CameraEXCameraExtension.entitlements */,
@@ -311,7 +305,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B1CD092A07E9FE00C0DC15 /* ContentView.swift in Sources */,
 				52B1CD072A07E9FE00C0DC15 /* CameraEXAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B1CD1C2A07EA6000C0DC15 /* main.swift in Sources */,
-				52B1CD1A2A07EA6000C0DC15 /* CameraEXCameraExtensionProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
